@@ -516,7 +516,7 @@ Functions you can use with file in the vault.
 `file.inFolder(folder: string): boolean`
 
 - `folder` is the folder name to check.
-- Returns true if the file is in the specified folder.
+- Returns true if the file is in the specified folder or a sub-folder.
 - Example: `file.inFolder("notes")` returns `true`.
 
 ## Object
